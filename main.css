@@ -1,0 +1,79 @@
+.logo{
+    width: 220px;
+    height: auto;
+}
+
+.side-title > h3{
+    font-size: 21px;
+    margin-bottom: 3px;
+}
+
+.side-title > p{
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.sosial-media > img{
+    width: 30px;
+    height: auto;
+}
+
+.navbar-custom{
+    background-image: url(images/bg-menu.jpg);
+}
+
+li.active{
+    background-image: url(images/bg-menu-hover.png);
+}
+
+.judul{
+    color: #153870;
+}
+
+.news > .title{
+    color: #6294C0;
+}
+
+.news > .desc{
+    color: #877E85;
+}
+
+.footer{
+    background-color: #0F3065;
+}
+
+
+.kartu > img{
+    width: 250px;
+    height: 200px;
+}
+
+.carousel-indicator {
+    display: none;
+}
+
+#custom-carousel .carousel-indicators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -66px;
+}
+
+#custom-carousel .carousel-indicators li{
+    background-color:black;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    list-style: none;
+}
+
+#custom-carousel .carousel-indicators .active{
+    background-color:#fff;
+}
+
+#custom-carousel .carousel-indicators li::before{
+    content: none;
+}
